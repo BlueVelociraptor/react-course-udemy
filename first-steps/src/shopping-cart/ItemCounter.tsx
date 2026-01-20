@@ -23,7 +23,9 @@ export const ItemCounter = ({ name, quantity = 10 }: ItemCounterProps) => {
       <span className={styles["w-150"]}>{name}</span>
       <button onClick={handleIncrementQuantityValue}>+1</button>
       <span
-        className={`${quantityValue === 0 ? styles["text-red"] : styles["text-green"]}`}
+        style={{
+          color: quantityValue === 0 ? "red" : "green",
+        }}
       >
         {quantityValue}
       </span>

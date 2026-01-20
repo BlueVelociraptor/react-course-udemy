@@ -1,0 +1,26 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`ItemCounter > Should match snapshot 1`] = `
+<div>
+  <section
+    class="_container-style_8b32a2"
+  >
+    <span
+      class="_w-150_8b32a2"
+    >
+      IS-7
+    </span>
+    <button>
+      +1
+    </button>
+    <span
+      style="color: green;"
+    >
+      10
+    </span>
+    <button>
+      -1
+    </button>
+  </section>
+</div>
+`;

@@ -1,0 +1,81 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MyAwesomeApp > should match snapshot - screen 1`] = `
+<div
+  data-testid="div-app"
+>
+  <h1>
+    Alina
+  </h1>
+  <h3>
+    Tsvetkov
+  </h3>
+  <h3>
+    Personajes favoritos:
+  </h3>
+  <p
+    class="mi-clase-favorita"
+  >
+    Interrogación
+  </p>
+  <p
+    class="mi-clase-favorita"
+  >
+    ShellcolGG
+  </p>
+  <p
+    class="mi-clase-favorita"
+  >
+    Alina Tsvetkov
+  </p>
+  <h3>
+    Activo
+  </h3>
+  <p
+    style="background-color: green; border-radius: 5px; padding: 5px; margin-top: 220px;"
+  >
+    Hola
+  </p>
+</div>
+`;
+
+exports[`MyAwesomeApp > should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="div-app"
+  >
+    <h1>
+      Alina
+    </h1>
+    <h3>
+      Tsvetkov
+    </h3>
+    <h3>
+      Personajes favoritos:
+    </h3>
+    <p
+      class="mi-clase-favorita"
+    >
+      Interrogación
+    </p>
+    <p
+      class="mi-clase-favorita"
+    >
+      ShellcolGG
+    </p>
+    <p
+      class="mi-clase-favorita"
+    >
+      Alina Tsvetkov
+    </p>
+    <h3>
+      Activo
+    </h3>
+    <p
+      style="background-color: green; border-radius: 5px; padding: 5px; margin-top: 220px;"
+    >
+      Hola
+    </p>
+  </div>
+</div>
+`;

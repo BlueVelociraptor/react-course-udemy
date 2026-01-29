@@ -16,7 +16,7 @@ export const useCounter = ({ initialValue = 10 }: Props) => {
   };
 
   const handleReset = (): void => {
-    setCounter(5);
+    setCounter(initialValue);
   };
 
   return {
